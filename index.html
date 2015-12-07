@@ -22,5 +22,20 @@
             <h1>Hello World</h1>
         </main>
     </div>
+    <script>
+(function() {
+    'use strict';
+
+    const remote = require('remote');
+    const dialog = remote.require('dialog');
+
+    document.body.addEventListener('click', function() {
+        dialog.showMessageBox({
+            message: 'My first Electron click',
+            buttons: ['Yeah!']
+        });
+    });
+}());
+    </script>
 </body>
 </html>
