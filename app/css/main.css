@@ -1,0 +1,16 @@
+html,
+body {
+    /* make app dragable, set clickable areas to  -webkit-app-region: no-drag; */
+    -webkit-app-region: drag;
+}
+
+body {
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
