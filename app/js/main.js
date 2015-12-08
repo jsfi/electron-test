@@ -13,7 +13,7 @@
     let trayIcon = null;
 
     if (process.platform === 'darwin') {
-        trayIcon = new Tray(path.join(__dirname, 'img/heart-white.png'));
+        trayIcon = new Tray(path.join(__dirname, 'img/heartTemplate.png'));
     } else {
         trayIcon = new Tray(path.join(__dirname, 'img/heart.png'));
     }
